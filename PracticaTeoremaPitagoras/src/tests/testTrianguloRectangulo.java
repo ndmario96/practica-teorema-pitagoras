@@ -55,9 +55,9 @@ class testTrianguloRectangulo {
 	
 	@Test
 	void testPerimetro() {
-		double perimetroObtenido = Math.round(triangulo2.perimetro());
-		double perimetroEsperado = Math.round(8.6055);
-		assertEquals (perimetroObtenido, perimetroEsperado);
+		double perimetroObtenido = triangulo2.perimetro();
+		double perimetroEsperado = 8.6055;
+		assertEquals (perimetroObtenido, perimetroEsperado, 0.0001);
 	}
 	
 	@Test

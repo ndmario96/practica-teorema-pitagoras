@@ -61,6 +61,7 @@ public class TrianguloRectangulo {
  public double hipotenusa() {
 	 double interiorRaiz = ((a*a) + (b*b));
 	 double hipotenusa = Math.sqrt(interiorRaiz);
+	 
 	 return hipotenusa;
  }
  
